@@ -2,14 +2,22 @@ import React from 'react';
 import MemberCard from './MemberCard';
 
 const members = [
-  {
+  /*{
     "id": 1,
     "name": "BRIAN ANDREOLI",
     "title": "MANAGING DIRECTOR",
     "image": "/Brian-LinkedIn-picture.jpeg",
     "shortDescription": "International tax partner with three multinational firms; tax principal with three of the big four accounting firms: corporate tax experience are two major pharmaceutical companies. Extensive experience in litigation",
     "fullDescription": "International tax partner with three multinational firms; tax principal with three of the big four accounting firms: corporate tax experience are two major pharmaceutical companies. Extensive experience in litigation, mergers and acquisitions, restructuring and general business matters. Etcetera"
-  },
+  },*/
+  {
+    "id": 1,
+    "name": "MITCHELL BRANDT",
+    "title": "MANAGING DIRECTOR",
+    "image": "/Screenshot 2025-08-06 at 23.25.08.jpeg",
+    "shortDescription": "Entrepreneur, former of owner of Schools for. Children with Special Needs for the past 9 years. Operaied a reiationship service business for over 15 years, commercial pool and repair service for 8 years and a restaurant",
+    "fullDescription": "Entrepreneur, former of owner of Schools for. Children with Special Needs for the past 9 years. Operaied a reiationship service business for over 15 years, commercial pool and repair service for 8 years and a restaurant supply company for six years. Prior to business practiced law for three years in Houston, Texas. Member of YPO and recently elected Regional Board Member of YPO."
+  },  
   {
     "id": 2,
     "name": "WILLIAM A. BROWN",
@@ -82,14 +90,14 @@ const members = [
     "shortDescription": "Retired senior investment banker with extensive international and cross border merger and acquisition as well as financial advisory experience across a variety of industries at The Bridgeford Group/Mizuho, JPMorgan,",
     "fullDescription": "Retired senior investment banker with extensive international and cross border merger and acquisition as well as financial advisory experience across a variety of industries at The Bridgeford Group/Mizuho, JPMorgan, Credit Suisse/First Boston and Lehman Brothers located in New York, Hong Kong, Tokyo and London. AB Harvard College, MBA Stanford GSB."
   },
-  {
+  /*{
     "id": 11,
     "name": "STEVEN LANDIS",
     "title": "MANAGING DIRECTOR",
     "image": "/STEVEN LANDIS.png",
     "shortDescription": "Strategic consultant focused on private credit investing. Investor with extensive experience in fixed income, relative value, sector allocation, and market timing. Formerly Vice President and head of Macquarie",
     "fullDescription": "Strategic consultant focused on private credit investing. Investor with extensive experience in fixed income, relative value, sector allocation, and market timing. Formerly Vice President and head of Macquarie Investment Management’s Delaware Funds’ Emerging Markets Debt business. Previously Managing Director at FH International Asset Management, focused on multi-strategy investing in sovereign and corporate emerging market debt. Prior extensive experience as a market maker and proprietary trader in the Primary Dealer community for US Treasury Debt. BA, Beloit College and MBA, Columbia University Graduate School of Business."
-  },
+  },*/
   {
     "id": 12,
     "name": "TERRY LAUGHREN",
@@ -122,14 +130,14 @@ const members = [
     "shortDescription": "Entrepreneur, Former Owner and President of Sherman Plastics Corporation. Over 40 Years in the Plastic Industry. Expertise in sales, management, and manufacturing. Sherman Plastics Corporation is a four-time",
     "fullDescription": "Entrepreneur, Former Owner and President of Sherman Plastics Corporation. Over 40 Years in the Plastic Industry. Expertise in sales, management, and manufacturing. Sherman Plastics Corporation is a four-time Illinois recycling grant recipient and a leader in recycling and distributing plastic resins and compounds."
   },
-  {
+  /*{
     "id": 16,
     "name": "JIM MCPARTLAN",
     "title": "MANAGING DIRECTOR",
     "image": "/JIM MCPARTLAN.png",
     "shortDescription": "Global Investment Banker, Strategic Partner and Trusted Advisor with a proven international track record of success in creating and executing Board-mandated initiatives and strategic visions by ???  addressing market complexity.",
     "fullDescription": "Global Investment Banker, Strategic Partner and Trusted Advisor with a proven international track record of success in creating and executing Board-mandated initiatives and strategic visions by addressing market complexity recycling grant recipient and a leader in recycling and distributing plastic resins and compounds."
-  },
+  },*/
   {
     "id": 17,
     "name": "HOWARD MEITINER",

@@ -114,13 +114,13 @@ function Portfolio() {
     description: "Raydiant acquired our investment PERCH Interactive. Raydiant is a leading in-location digital experience platform with over 200,000 devices and customers like McDonald’s, First Bank, Harvard University and Thomson Reuters.",
     logo: "/RAYDIANT_LOGO.png"
   },
-  {
+  /*{
     id: 17,
     company: "SWAPONZ",
     url: "https://swaponz.com",
     description: "Swaponz is a technology and consumer product company that is combining its patented Infinite Swap product platform with the power and excitement of Augmented Reality to inform and engage customers at the point of sale and during events.",
     logo: "/SWAPONZ_LOGO.jpg"
-  },
+  },*/
   {
     id: 18,
     company: "THIRSTIE",
@@ -135,13 +135,13 @@ function Portfolio() {
     description: "Using their proprietary technology, Safe Health Group, Inc. and the Mayo Clinic have launched a platform to reduce the cost of care in commodity diagnostics at scale. Combines AI-based care automation and remote point-of-care diagnostics.",
     logo: "/THESAFEGROUP_LOGO.png"
   },
-  {
+  /*{
     id: 20,
     company: "TOLEDO SOLAR, INC",
     url: "https://toledo-solar.com",
     description: "The state-of-the-art manufacturer and distributor of cadmium Telluride (CdTe) thin-film solar panels. Manufactures solar panels for home roofs and windows using vapor disposition technology.",
     logo: "/TOLEDO_SOLAR_LOGO.png"
-  },
+  },*/
   {
     id: 21,
     company: "UCODE PROGRAMMING ACADEMY",
