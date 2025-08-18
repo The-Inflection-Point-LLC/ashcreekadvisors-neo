@@ -1,52 +1,104 @@
-"use client"
-import React, { useState } from 'react';
+"use client";
+import React, { useState } from "react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    companyName: '',
-    email: '',
-    phone: '',
-    message: '',
+    name: "",
+    companyName: "",
+    email: "",
+    phone: "",
+    message: "",
+    subject: "Ashcreekadvisors Email",
     checkboxes: {
       setupCall: false,
       lookingForInvestment: false,
       lookingForHelp: false,
       haveQuestion: false,
       haveThirdParty: false,
-      interested: false
-    }
+      interested: false,
+    },
   });
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
   const handleCheckboxChange = (e) => {
     const { name, checked } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
       checkboxes: {
         ...prev.checkboxes,
-        [name]: checked
-      }
+        [name]: checked,
+      },
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+
+    const checkedValue = Object.keys(formData.checkboxes).filter(
+      (key) => formData.checkboxes[key]
+    );
+
+    const payload = {
+      checkedValue,
+      name: formData.name,
+      companyName: formData.companyName,
+      email: formData.email,
+      phone: formData.phone,
+      message: formData.message,
+      subject: formData.subject,
+    };
+
+    try {
+      const res = await fetch(
+        "https://api.ashcreekadvisors.com/api/emailSender/contact/newContact",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        }
+      );
+
+      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+
+      const data = await res.json();
+      
+      setFormData({
+        name: "",
+        companyName: "",
+        email: "",
+        phone: "",
+        message: "",
+        subject: "",
+        checkboxes: {
+          setupCall: false,
+          lookingForInvestment: false,
+          lookingForHelp: false,
+          haveQuestion: false,
+          haveThirdParty: false,
+          interested: false,
+        },
+      });
+    } catch (err) {
+      console.error("❌ Error submitting form:", err);
+    }
   };
 
   return (
-    <div id="contact" className="min-h-screen bg-white flex items-center justify-center px-8">
+    <div
+      id="contact"
+      className="min-h-screen bg-white flex items-center justify-center px-8"
+    >
       <div className="w-full max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          {/* Left Column */}
           <div className="space-y-6">
             <div>
               <h1 className="text-5xl font-normal text-black leading-tight mb-6">
@@ -61,81 +113,29 @@ const Contact = () => {
             </div>
 
             <div className="space-y-4 pt-4">
-              <label className="flex items-start space-x-3">
-                <input
-                  type="checkbox"
-                  name="setupCall"
-                  checked={formData.checkboxes.setupCall}
-                  onChange={handleCheckboxChange}
-                  className="mt-1 w-4 h-4 border border-gray-300"
-                />
-                <span className="text-gray-700">Set up a call</span>
-              </label>
-
-              <label className="flex items-start space-x-3">
-                <input
-                  type="checkbox"
-                  name="lookingForInvestment"
-                  checked={formData.checkboxes.lookingForInvestment}
-                  onChange={handleCheckboxChange}
-                  className="mt-1 w-4 h-4 border border-gray-300"
-                />
-                <span className="text-gray-700">Looking for an investment</span>
-              </label>
-
-              <label className="flex items-start space-x-3">
-                <input
-                  type="checkbox"
-                  name="lookingForHelp"
-                  checked={formData.checkboxes.lookingForHelp}
-                  onChange={handleCheckboxChange}
-                  className="mt-1 w-4 h-4 border border-gray-300"
-                />
-                <span className="text-gray-700">Looking for help with my business</span>
-              </label>
-
-              <label className="flex items-start space-x-3">
-                <input
-                  type="checkbox"
-                  name="haveQuestion"
-                  checked={formData.checkboxes.haveQuestion}
-                  onChange={handleCheckboxChange}
-                  className="mt-1 w-4 h-4 border border-gray-300"
-                />
-                <span className="text-gray-700">Have a question</span>
-              </label>
-
-              <label className="flex items-start space-x-3">
-                <input
-                  type="checkbox"
-                  name="haveThirdParty"
-                  checked={formData.checkboxes.haveThirdParty}
-                  onChange={handleCheckboxChange}
-                  className="mt-1 w-4 h-4 border border-gray-300"
-                />
-                <span className="text-gray-700">Have a 3rd-party investment</span>
-              </label>
-
-              <label className="flex items-start space-x-3">
-                <input
-                  type="checkbox"
-                  name="interested"
-                  checked={formData.checkboxes.interested}
-                  onChange={handleCheckboxChange}
-                  className="mt-1 w-4 h-4 border border-gray-300"
-                />
-                <span className="text-gray-700">Interested</span>
-              </label>
+              {Object.keys(formData.checkboxes).map((key) => (
+                <label key={key} className="flex items-start space-x-3">
+                  <input
+                    type="checkbox"
+                    name={key}
+                    checked={formData.checkboxes[key]}
+                    onChange={handleCheckboxChange}
+                    className="mt-1 w-4 h-4 border border-gray-300"
+                  />
+                  <span className="text-gray-700">
+                    {key
+                      .replace(/([A-Z])/g, " $1")
+                      .replace(/^./, (str) => str.toUpperCase())}
+                  </span>
+                </label>
+              ))}
             </div>
           </div>
 
-          {/* Right Column */}
           <div>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label className="block text-gray-700 text-sm mb-2">
-                  Name:
-                </label>
+                <label className="block text-gray-700 text-sm mb-2">Name:</label>
                 <input
                   type="text"
                   name="name"
@@ -172,9 +172,7 @@ const Contact = () => {
               </div>
 
               <div>
-                <label className="block text-gray-700 text-sm mb-2">
-                  Phone:
-                </label>
+                <label className="block text-gray-700 text-sm mb-2">Phone:</label>
                 <input
                   type="tel"
                   name="phone"
