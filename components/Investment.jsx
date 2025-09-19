@@ -39,7 +39,7 @@ const Investment = () => {
 
                   <p>
                     Finally, one of the businesses funded back in 2019 has
-                    become a Unicorn and will exit the year with a $1 billion
+                    become a Unicorn and will exit the year with a $15 billion
                     valuation.
                   </p>
                 </div>

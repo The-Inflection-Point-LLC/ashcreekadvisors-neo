@@ -37,13 +37,13 @@ function Portfolio() {
     description: "Acenda Health is determined to build the only connected platform in the chronic care and postacute care industry, where providers can collect, exchange, analyze and act on patient data in real time. In doing so, the company’s technology and infrastructure will have a large disruptive impact on the industry, leading to lower costs (for insurers, state Medicaid and Medicare), reduced financial risk for providers, and ultimately improve patient outcomes.",
     logo: "/ASENDA_LOGO.png"
   },
-  {
+  /*{
     id: 6,
     company: "BLUSAPPHIRE",
     url: "http://www.blusapphire.net",
     description: "The first and only Unified Cyber Defense Platform with Intelligent Response Automation. It’s a Platform not just another tool. BluSapphire Enhanced Detection & Response (EDR) product is an elegant and ease to use platform to address the cyber defense stack – detection, analysis, response & remediation – a single tool that utilizes AI and machine learning to span the cyber defense stack in a single pane of glass.",
     logo: "/BLUSAPPHIRE_LOGO.png"
-  },
+  }, */
   {
     id: 7,
     company: "DIAMOND STANDARD, INC.",
@@ -65,13 +65,13 @@ function Portfolio() {
     description: "Company incorporated video, and OOH advertising. The platform incorporates the sophistication of precision targeting with premium inventory, coupled with agile creative and actionable insights. It is a product built to deliver Return on Ad Spend with simplicity and scale.",
     logo: "/INFILLION_LOGO.png"
   },
-  {
+  /*{
     id: 10,
     company: "INFINITE REALITY",
     url: "https://theinfinitereality.com",
     description: "The Infinite Reality is a metaverse company and social media platform. Not only are brands now able to connect directly with consumers in an immersive and engaging world, but users can capture value by creating and sharing original content from all over the world.",
     logo: "/INFINITEREALITY_LOGO.svg"
-  },
+  },*/
   {
     id: 11,
     company: "ION PACIFIC",
@@ -102,32 +102,32 @@ function Portfolio() {
   },
   {
     id: 15,
-    company: "PING",
+    company: "NAPSTER",
     url: "https://www.pingloud.com",
     description: "Ping is patented, cross platform voice technology that allows users to hear all their messages and email read aloud, when touching their device is dangerous, illegal (driving) or simply inconvenient.",
     logo: "/PING_LOGO.png"
   },
-  {
+  /*{
     id: 16,
     company: "RAYDIANT",
     url: "https://www.raydiant.com",
     description: "Raydiant acquired our investment PERCH Interactive. Raydiant is a leading in-location digital experience platform with over 200,000 devices and customers like McDonald’s, First Bank, Harvard University and Thomson Reuters.",
     logo: "/RAYDIANT_LOGO.png"
   },
-  /*{
+  {
     id: 17,
     company: "SWAPONZ",
     url: "https://swaponz.com",
     description: "Swaponz is a technology and consumer product company that is combining its patented Infinite Swap product platform with the power and excitement of Augmented Reality to inform and engage customers at the point of sale and during events.",
     logo: "/SWAPONZ_LOGO.jpg"
-  },*/
+  },
   {
     id: 18,
     company: "THIRSTIE",
     url: "https://thirstie.com",
     description: "The new standard in enterprise e-commerce for liquor brands. Thirstie builds the most powerful and flexible tools to enable internet commerce. Whether you’re a large or small brand, Thirstie’s meticulously-designed APIs and unmatched functionality help you create the best possible product experience.",
     logo: "/THIRSTIE_LOGO.jpg"
-  },
+  },*/
   {
     id: 19,
     company: "THE SAFE GROUP",
@@ -141,7 +141,7 @@ function Portfolio() {
     url: "https://toledo-solar.com",
     description: "The state-of-the-art manufacturer and distributor of cadmium Telluride (CdTe) thin-film solar panels. Manufactures solar panels for home roofs and windows using vapor disposition technology.",
     logo: "/TOLEDO_SOLAR_LOGO.png"
-  },*/
+  },
   {
     id: 21,
     company: "UCODE PROGRAMMING ACADEMY",
@@ -155,7 +155,7 @@ function Portfolio() {
     url: "https://xxiicentury.com",
     description: "22nd Century is an agricultural biotechnology and intellectual-property company. Focused on alkaloid plant techniques to improve health through tobacco harm reduction and cannabinoids.",
     logo: "/XXII_LOGO.png"
-  },
+  },*/
   {
     id: 23,
     company: "ZONEFLOW",

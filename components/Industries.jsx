@@ -33,13 +33,10 @@ const Industries = () => {
                   <ul className="list-disc pl-5">
                     <li>Adhesion: Mussel Polymers</li>
                     <li>Asset Management: Diamond Standard</li>
-                    <li>Biotechnology: 22nd Century Group</li>
+                    <li>AI: R4 Technologies, Mimesis</li>
                     <li>
-                      Consumer E-Commerce: Kickly, Thirstie, Raydiant, Swaponz,
-                      Ucode
-                    </li>
-                    <li>Communications: Ping</li>
-                    <li>Cybersecurity: BluSapphire, Cyber Safety</li>
+                      Consumer E-Commerce: Kickly, Swaponz</li>
+                    <li>Cybersecurity: Cyber Safety</li>
                     <li>Environmental: 7ac, Nanovapor, Zoneflow</li>
                     <li>
                       FinTech/Financial Services: Foundation CREF, Ion Pacific
@@ -48,8 +45,7 @@ const Industries = () => {
                       Healthcare: Accure Acne, Asenda Health, The Safe Group
                     </li>
                     <li>Media: Infillion</li>
-                    <li>Social Media/Web 3.0: The Infinite Reality</li>
-                    <li>Solar: Toledo Solar</li>
+                    <li>Social Media/Web 3.0: Napster</li>
                   </ul>
                 </div>
               </div>
