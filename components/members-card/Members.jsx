@@ -14,7 +14,7 @@ const members = [
     "id": 1,
     "name": "MITCHELL BRANDT",
     "title": "MANAGING DIRECTOR",
-    "image": "/Screenshot 2025-08-06 at 23.25.08.jpeg",
+    "image": "/MITCHELL BRANDT.jpeg",
     "shortDescription": "Entrepreneur, former of owner of Schools for. Children with Special Needs for the past 9 years. Operaied a reiationship service business for over 15 years, commercial pool and repair service for 8 years and a restaurant",
     "fullDescription": "Entrepreneur, former of owner of Schools for. Children with Special Needs for the past 9 years. Operaied a reiationship service business for over 15 years, commercial pool and repair service for 8 years and a restaurant supply company for six years. Prior to business practiced law for three years in Houston, Texas. Member of YPO and recently elected Regional Board Member of YPO."
   },  
@@ -217,6 +217,14 @@ const members = [
     "image": "/MICHAEL P. ZARRILLI.jpg",
     "shortDescription": "Michael P. Zarrilli has extensive experience and expertise in Finance and Investments. He spent 32 years with JP Morgan and predecessors in multiple managerial and transactional roles involving all aspects of fixed",
     "fullDescription": "Michael P. Zarrilli has extensive experience and expertise in Finance and Investments. He spent 32 years with JP Morgan and predecessors in multiple managerial and transactional roles involving all aspects of fixed income including bonds, lending, bankruptcy, CLO’s and Structured Credit. For 12 years, he was Investment Committee member and COO for KLS Diversified Asset Management LP, which was a $4 billion fixed income hedge fund with global clients investing in rates, credit and structured credit markets. He serves on several Investment Committees, including WPI and Telluride Mountain Village Owners Association."
+  },
+  {
+    "id": 27,
+    "name": "JONATHAN WELTMAN",
+    "title": "MANAGING DIRECTOR",
+    "image": "/jswimage.jpg",
+    "shortDescription": "Retired Vice President-Global Head Customer Finance at Boeing Capital. Among roles at The Boeing Company, served as chairman of the Delta Air Lines creditors’ committee and co-chair of the American Airlines creditors’",
+    "fullDescription": "Retired Vice President-Global Head Customer Finance at Boeing Capital. Among roles at The Boeing Company, served as chairman of the Delta Air Lines creditors’ committee and co-chair of the American Airlines creditors’ committee during the bankruptcy proceedings for those two companies. BA Yale College, JD University of Pennsylvania Law School."
   }
   
 ];

@@ -87,6 +87,13 @@ function Portfolio() {
     logo: "/KLICKLY_LOGO.jpg"
   },
   {
+    id: 24,
+    company: "MIMESIS",
+    url: " ",
+    description: "The companies in the streaming Industry (Netflix, Disney+, Amazon Prime Video, AppleTV+, Max, Hulu, Paramount+, Peacock, etc.) are spending heavily on geographic expansion and on new content to attract new subscribers and gain market share. MiMesis uses its AI platform to expand the audience for any show. It can modify the dialog, the narration and the vocabulary on existing content. The modifications are designed to expand the reach of the original content to a new audience segment.",
+    logo: "/MMesis_Log.jpg"
+  },
+  {
     id: 13,
     company: "MUSSEL POLYMERS",
     url: "https://www.musselpolymers.com",
@@ -103,9 +110,9 @@ function Portfolio() {
   {
     id: 15,
     company: "NAPSTER",
-    url: "https://www.pingloud.com",
-    description: "Ping is patented, cross platform voice technology that allows users to hear all their messages and email read aloud, when touching their device is dangerous, illegal (driving) or simply inconvenient.",
-    logo: "/PING_LOGO.png"
+    url: "https://www.napster.ai/",
+    description: "Napster Companion is a video-based, conversational AI platform where you can have conversations with unlimited smart, lifelike AI personas who can help you learn, create, and solve complex problems. Working alongside Napster Companion, Napster View is a small second screen hardware accessory that clips onto your computer monitor, making your conversations feel more dynamic via a 3D holographic lens.",
+    logo: "/Napster_logo.svg"
   },
   /*{
     id: 16,
