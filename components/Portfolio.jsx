@@ -7,14 +7,14 @@ function Portfolio() {
     company: "7AC TECHNOLOGY LLC",
     url: "https://www.emerson.com/en-us/news/corporate/7ac-acquisition",
     description: "7AC has been acquired by Emerson. 7AC provides new approach to air conditioning technology, developing extreme energy savings and the ability to maximize climate friendly refrigerants.",
-    logo: " "
+    logo: "7AC_Logo.png"
   },
   {
     id: 2,
     company: "ADVANCED CYBER SAFETY",
     url: "https://www.advancedcybersecurity.com",
     description: "CSI is a state-of-the-art, high growth, cyber security company with multiple products targeted to enterprises and consumers. CSI is NOT an anti-virus vendor – CSI's key product, EndpointLock™, provides PREVENTION from zero-day malware. The EndpointLock product is part of FirstData's merchant package.",
-    logo: " "
+    logo: "ACS-Logo.png"
   },
   {
     id: 3,
