@@ -134,14 +134,14 @@ function Portfolio() {
     url: "https://thirstie.com",
     description: "The new standard in enterprise e-commerce for liquor brands. Thirstie builds the most powerful and flexible tools to enable internet commerce. Whether you’re a large or small brand, Thirstie’s meticulously-designed APIs and unmatched functionality help you create the best possible product experience.",
     logo: "/THIRSTIE_LOGO.jpg"
-  },*/
+  },
   {
     id: 19,
     company: "THE SAFE GROUP",
     url: "https://safehealth.me",
     description: "Using their proprietary technology, Safe Health Group, Inc. and the Mayo Clinic have launched a platform to reduce the cost of care in commodity diagnostics at scale. Combines AI-based care automation and remote point-of-care diagnostics.",
     logo: "/THESAFEGROUP_LOGO.png"
-  },
+  }, */
   /*{
     id: 20,
     company: "TOLEDO SOLAR, INC",
