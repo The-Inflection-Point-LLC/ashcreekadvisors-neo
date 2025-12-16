@@ -230,7 +230,7 @@ const members = [
     "id": 28,
     "name": "STAN GOLDBERG",
     "title": "MANAGING DIRECTOR",
-    "image": "/STAN_GOLD.jpg",
+    "image": "/STAN_GOLD2.jpg",
     "shortDescription": "Stan Goldberg was a partner in the law firm of Platzer Swergold, Levine Goldberg Katz and Jaslow,  LLP for in excess of 25 years and served 'Of Counsel' to the Firm for an additional 5 years after his retirement.  His areas of practice",
     "fullDescription": "Stan Goldberg was a partner in the law firm of Platzer Swergold, Levine Goldberg Katz and Jaslow,  LLP for in excess of 25 years and served 'Of Counsel' to the Firm for an additional 5 years after his retirement.  His areas of practice included representing national and regional banks in the origination of asset-based and commercial real estate loans as well  as work outs of distressed  debt.  He also represented  buyers and sellers in corporate and real estate transactions. and  Chapter 11 debtors, secured parties and Creditors' Committees in transactional corporate bankruptcy matters.  Stan litigated the enforcement of defaulted loans, general commercial and contract disputes in the State and Federal Courts in New York."
   }
